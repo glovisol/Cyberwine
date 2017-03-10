@@ -1,0 +1,17 @@
+This repository gives information and sketches for the direct programming of SAMD21 registers, as well as a simple library and sketch examples as follows.
+
+* DIRECT PROGRAMMING OF SAMD21 REGISTERS PDF - Gives detailed instructions on the operation and programming of the SAMD21 as applied to Arduino ZERO.
+
+* SAMD21 Blocks PDF - Blocks diagram to follow the descriptive text above.
+
+* PPWM TOOL .xls Excel file as a quick design aid for parameter selection.
+
+All above provides the necessary info & background on the library described below.
+
+=================================================
+
+Lib.Freq_20 provides the library .h and .cpp files.
+
+Example sketch_FREQ._2_a generates a variable Frequency/Duty Cycle PWM on output pin 7 by inserting two parameters.
+
+Example sketch_FREQ_3_a generates a variable Frequency PWM whose Duty Cyvcle follows the voltage on input pin A5.
